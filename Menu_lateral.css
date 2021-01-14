@@ -1,0 +1,38 @@
+#pagina{
+    font-family:cursive;
+}
+
+#pagina p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#pagina a {
+    display:block;
+    padding: 3px;
+    background-color:limegreen;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 34px;
+    text-align:center;
+    
+}
+
+#pagina a:link, #pagina a:visited{
+    color: hotpink;
+}
+
+
+
+
+
+#pagina a:hover {
+    background-color:red;
+    color:seashell;
+}
+
+
+

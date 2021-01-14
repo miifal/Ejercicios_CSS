@@ -1,0 +1,10 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#example-id{
+    border-style: dotted;
+    border-color:crimson; 
+    font-style: italic;
+}
