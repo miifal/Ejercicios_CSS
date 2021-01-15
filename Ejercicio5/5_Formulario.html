@@ -6,14 +6,22 @@
         <link rel="stylesheet" href="Formulario.css" type="text/css"/>
              
     </head>
-
     <body>
-        <form action="datos.php" method="GET">
-            Nombre: <input type="text" name="nombre">
-            Email: <input type="email" name="email">
+        <form action="POST" id="form">
+            <label class="label-form" for="firtsName">Nombre</label>
+            <input type="text" name="firtsName">
+            <br>
+            <label class="label-form" for="mail">Email</label>
+            <input type="email" name="mail">
+            <br>
+            <label class="label-form" for="comments">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+            <br>
+            <div class="container-button">
+                <button class="send-button" type="submit">Enviar</button>
+            </div>
 
         </form>
-
 
 
     </body>
